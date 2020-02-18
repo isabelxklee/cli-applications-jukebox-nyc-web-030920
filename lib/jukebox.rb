@@ -35,7 +35,7 @@ def play(songs)
     if array.include? input
         input = input.to_i
         input -= 1
-        puts songs[input]
+        puts "Playing #{songs[input]}"
     elsif songs.include? input 
         puts input
     else 
